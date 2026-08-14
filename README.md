@@ -38,5 +38,5 @@ Because this project spans two environments, you must set up both the Windows Ho
 2. Install the required libraries by targeting Python 3.12:
    ```cmd
    py -3.12 -m pip install SpeechRecognition requests PyAudio
-# Ensure you have set this in your WSL terminal: export NVIDIA_API_KEY="your-key"
+**Ensure you have set this in your WSL terminal: export NVIDIA_API_KEY="your-key"**
 **suggestion: Open demon_client.py in cmd while wsl is being used for running main.py**
