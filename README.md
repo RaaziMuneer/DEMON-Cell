@@ -30,6 +30,7 @@ Runs the core LLM logic, executes system tools, and generates Text-to-Speech (TT
 
 Because this project spans two environments, you must set up both the Windows Host and the WSL environment separately.
 
+
 ### Part 1: Windows Client Setup ("The Senses")
 **Important:** You must use **Python 3.12 (Stable)** on Windows. Experimental versions (like 3.14) will fail to build the C++ PortAudio headers required by PyAudio.
 
@@ -37,3 +38,5 @@ Because this project spans two environments, you must set up both the Windows Ho
 2. Install the required libraries by targeting Python 3.12:
    ```cmd
    py -3.12 -m pip install SpeechRecognition requests PyAudio
+Add own API code in the config.py file
+**suggestion: Open demon_client.py in cmd while wsl is being used for running main.py**
